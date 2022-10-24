@@ -8,7 +8,7 @@
 
 ```
 nasm -f win32 .\main.asm
-link.exe /OUT:"main.exe" /MACHINE:X86 /SUBSYSTEM:WINDOWS /NOLOGO /TLBID:1 /ENTRY:Start .\main.obj
+link.exe /OUT:"main.exe" /MACHINE:X86 /SUBSYSTEM:WINDOWS /NOLOGO /TLBID:1 /ENTRY:StartMain .\main.obj
 ```
 
 
